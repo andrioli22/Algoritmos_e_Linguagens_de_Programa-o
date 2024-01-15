@@ -1,12 +1,14 @@
-int x = 1, soma = 0;
-            while (x <= 50)
+{
+            int x=0, soma =0;
+            while (x<=100)
             {
-                if (x % 2 == 0)
-                {
-                    soma = soma + x;
-                }
+                soma = soma + x;
                 x++;
-                Console.WriteLine(soma);
-
+                
+                    
 
             }
+
+            Console.WriteLine(soma);
+
+        }
